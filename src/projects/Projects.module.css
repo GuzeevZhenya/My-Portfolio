@@ -1,0 +1,20 @@
+.projectsBlock {
+  min-height: 50vh;
+  background-color: rgb(22, 111, 214);
+}
+.projects {
+  display: flex;
+  justify-content: space-around;
+  border: 1px solid red;
+}
+
+.title {
+  border-bottom: 1px solid;
+}
+
+@media (max-width: 800px) {
+  .projects {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+}

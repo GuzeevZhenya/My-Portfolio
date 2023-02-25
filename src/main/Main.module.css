@@ -1,0 +1,37 @@
+.mainBlock {
+  height: 100vh;
+  background-color: mediumaquamarine;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.text {
+  max-width: 300px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+.photo {
+  max-width: 300px;
+  height: 400px;
+  width: 100%;
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .text {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 440px) {
+}

@@ -1,0 +1,28 @@
+.formBlock {
+  display: flex;
+  background-color: yellow;
+  height: 40vh;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.formContainer {
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 20px;
+}
+
+/* @media () {
+  .form{
+
+  }
+} */
