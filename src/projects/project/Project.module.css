@@ -3,24 +3,36 @@
   margin-bottom: 20px;
 }
 
-.projectImage img {
-  position: relative;
+.projectImageContainer {
   height: 200px;
-  min-width: 250px;
+  width: 100%;
   background-color: brown;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://avatars.mds.yandex.net/get-mpic/5277279/img_id2574632872461460293.jpeg/600x800');
 }
 
 .info {
   background-color: violet;
   max-width: 500px;
-  padding: 0 15px;
+  padding: 5px;
 }
 
-.projectImage button {
-  position: absolute;
+.projectImageContainer a {
+  background-color: blueviolet;
+  /* position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 100px;
+  height: 25px;
+  background-color: blueviolet;
+  text-align: center;
+  cursor: pointer; */
 }
 
 .title {

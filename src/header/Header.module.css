@@ -5,3 +5,9 @@
   justify-content: flex-end;
   align-items: center;
 }
+
+.headerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
